@@ -10,18 +10,18 @@ class Migration(migrations.Migration):
 
     operations = [
         migrations.CreateModel(
-            name="City",
+            name='City',
             fields=[
                 (
-                    "id",
+                    'id',
                     models.BigAutoField(
                         auto_created=True,
                         primary_key=True,
                         serialize=False,
-                        verbose_name="ID",
+                        verbose_name='ID',
                     ),
                 ),
-                ("name", models.CharField(max_length=30)),
+                ('name', models.CharField(max_length=30)),
             ],
         ),
     ]
